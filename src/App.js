@@ -40,7 +40,7 @@ function App() {
 	return (
 		<Container id="app-container">
 			<Row>
-				<h1>Costs Manager</h1>
+				<h1>MATAN</h1>
 			</Row>
 			<Row>
 				<Col>
