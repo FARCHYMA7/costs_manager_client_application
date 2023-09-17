@@ -18,7 +18,7 @@ const Report = ({costs}) => {
 			// The cost.id is a string timestamp of its creation
 			const date = new Date(parseInt(cost.id));
 			const year = date.getFullYear();
-			const month = date.toLocaleString('default', {month: 'long'});
+			const month = date.toLocaleString('en-us', {month: 'long'});
 
 			// Initialize the year, and it's total sum if not already present
 			if (!groupedCosts[year]) {
